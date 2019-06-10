@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:viewportWidth="48"
+    android:viewportHeight="48" android:width="24dp" android:height="24dp">
+    <group android:name="last_icon" android:translateY="0" android:translateX="0">
+        <path android:fillColor="#00000000" android:strokeWidth="1" android:name="ViewBox"
+            android:fillType="nonZero" android:strokeColor="#00000000"
+            android:pathData="M 0,0 L 48,0 L 48,48 L 0,48 z" />
+        <path android:fillColor="#00000000" android:strokeLineJoin="round" android:strokeWidth="4"
+            android:name="Icon-Path" android:fillType="evenOdd" android:strokeColor="#337DFE"
+            android:strokeLineCap="round" android:pathData="M 30,36 L 18,24 L 30,12 z" />
+    </group>
+</vector>

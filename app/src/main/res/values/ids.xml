@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <item name="tv_title" type="id"/>
+    <item name="btn_last_month" type="id"/>
+    <item name="btn_next_month" type="id"/>
+    <item name="tv_day_of_month" type="id"/>
+</resources>

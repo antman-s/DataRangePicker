@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_dialog_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingTop="@dimen/space_18"
+        android:paddingBottom="@dimen/space_18">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/vector_drawable_date_icon_bold"
+            android:gravity="center_vertical"
+            android:text="日期选择"
+            android:textColor="#333333"
+            android:textSize="@dimen/text_size_16"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginStart="@dimen/space_30"
+        android:layout_marginEnd="@dimen/space_30"
+        android:layout_marginBottom="@dimen/space_20"
+        android:background="#5e5e5e" />
+
+    <com.supreme.picker.CalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_30"
+        android:layout_marginEnd="@dimen/space_30" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/space_30"
+        android:layout_marginEnd="@dimen/space_30"
+        android:layout_marginBottom="@dimen/space_30"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/space_256"
+            android:layout_height="@dimen/space_58"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/date_show_text_bg"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/space_20"
+            android:paddingTop="@dimen/space_10"
+            android:paddingEnd="@dimen/space_20"
+            android:paddingBottom="@dimen/space_10">
+
+            <TextView
+                android:id="@+id/tv_start_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_14" />
+
+            <View
+                android:layout_width="@dimen/space_42"
+                android:layout_height="1px"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="@dimen/space_28"
+                android:layout_marginEnd="@dimen/space_28"
+                android:background="#5e5e5e" />
+
+            <TextView
+                android:id="@+id/tv_end_date"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size_14" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btn_search"
+                android:layout_width="@dimen/space_72"
+                android:layout_height="@dimen/space_44"
+                android:background="@drawable/selector_date_search"
+                android:text="搜索"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size_13" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
